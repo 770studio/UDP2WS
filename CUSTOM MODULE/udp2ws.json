@@ -1,0 +1,7 @@
+{
+  "title": "Udp2ws Module",
+  "author": "VAYNER ILYA",
+  "description": "A module for manipulating the html blocks based on signals received by websocket connection.",
+  "name": "udp2ws",
+  "class": "Xibo\\Custom\\udp2ws\\Udp2Ws"
+}

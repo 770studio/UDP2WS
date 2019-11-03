@@ -1,0 +1,36 @@
+{#
+/*
+ * Spring Signage Ltd - http://www.springsignage.com
+ * Copyright (C) 2017 Spring Signage Ltd
+ * (notification-designer-javascript.twig)
+ */
+#}
+<script type="text/javascript">
+
+    // Runs after form opens
+    function udp2ws_form_edit_open() {
+        
+		        // Setup background color picker
+        $(this).find('.background-color-group input').colorpicker({format: 'rgba'});
+
+        // Tidy up colorpickers on modal close
+        if($(this).hasClass('modal')) {
+            $(this).on("hide.bs.modal", function(e) {
+                if(e.namespace === 'bs.modal') {
+                    // Remove colour pickers
+                    $(this).find(".background-color-group input").colorpicker('destroy');
+                }
+            });
+        }
+		
+		
+		
+		
+        // Set duration field, using the helper ()
+       // formHelpers.setupCheckboxInputFields($(this).find('form'), '#useDuration', '.duration-fields');
+        
+        // Setup editors
+       // formHelpers.setupDualTypeTextArea(this, 'embedHtml', !$(this).data('formEditorOnly'));
+    }
+
+</script>

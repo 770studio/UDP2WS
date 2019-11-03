@@ -25,11 +25,11 @@ $factory->createServer('0.0.0.0:20000')->then(function (React\Datagram\Socket $s
 		//var_dump(__DIR__ . "./websocket_client.php"); exit;
 		require_once __DIR__ . "/websocket_client.php";
 		$server = 'localhost';
-		//echo "Connecting to server: $server \n";
+		echo "Connecting to server: $server \n";
 		if( $sp = websocket_open($server, 8080,'',$errstr) ) {
-		 // echo "Sending message to server: '$message' \n";
+		  echo "Sending message to server: '$message' \n";
 		  websocket_write($sp,$message);
-		//  echo "Server responed with: '" . websocket_read($sp,$errstr) ."'\n";
+		  echo "Server responed with: '" . websocket_read($sp,$errstr) ."'\n";
 		}else {
 		  echo "Failed to connect to server\n";
 		  echo "Server responed with: $errstr\n";
