@@ -132,6 +132,7 @@ class Udp2Ws   extends \Xibo\Widget\ModuleWidget
 		$this->setOption('blinkColor', $this->getSanitizer()->getString('blinkColor'));
 		$this->setOption('textColor', $this->getSanitizer()->getString('textColor'));
 		$this->setOption('blinktextColor', $this->getSanitizer()->getString('blinktextColor'));
+		$this->setOption('blinkTime', $this->getSanitizer()->getString('blinkTime'));
 
 
         $this->setRawNode('mainTemplate',  $this->getSanitizer()->getParam('mainTemplate', $this->getSanitizer()->getParam('mainTemplate', null)) );
@@ -217,6 +218,7 @@ class Udp2Ws   extends \Xibo\Widget\ModuleWidget
         $configs['greenColor']  = $this->getRawNode('greenColor', 'green' );
         $configs['blinkColor']  = $this->getRawNode('greenColor', 'white' );
         $configs['blinktextColor']  = $this->getRawNode('greenColor', 'black' );
+        $configs['blinkTime']  = $this->getRawNode('blinkTime', '1s' );
 
 
         $configs['displayId']  = $displayId;

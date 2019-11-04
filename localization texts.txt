@@ -39,5 +39,6 @@ default = 100%
 Enter HTML in the box below.
 Enter CSS in the box below. 
 Enter additional JS code in the box below.        
-                     
+Blink Time
+default = 1s                     
                 

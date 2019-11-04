@@ -79,15 +79,15 @@
         100% { background-color: {greenColor}; color: {textColor}; }
     }
     .green_blink  {
-        -webkit-animation: argh-my-eyes-green 1s infinite;
-        -moz-animation:    argh-my-eyes-green 1s infinite;
-        animation:         argh-my-eyes-green 1s infinite;
+        -webkit-animation: argh-my-eyes-green {blinkTime} infinite;
+        -moz-animation:    argh-my-eyes-green {blinkTime}1 infinite;
+        animation:         argh-my-eyes-green {blinkTime} infinite;
     }
 
     .red_blink {
-        -webkit-animation: argh-my-eyes-red 1s infinite;
-        -moz-animation:    argh-my-eyes-red 1s infinite;
-        animation:         argh-my-eyes-red 1s infinite;
+        -webkit-animation: argh-my-eyes-red {blinkTime} infinite;
+        -moz-animation:    argh-my-eyes-red {blinkTime} infinite;
+        animation:         argh-my-eyes-red {blinkTime} infinite;
     }
 
     .green {
