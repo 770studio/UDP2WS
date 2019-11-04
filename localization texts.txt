@@ -1,0 +1,43 @@
+Edit UDP2WS
+Configuration    
+Colours   
+Sizes  
+Template
+HTML
+CSS Styles
+JS Code
+Block caption
+default =  Kasse
+Server URL
+e.g. wss://ds.cucos.de/design/:8081
+Background Colour
+default = red
+Border Colour
+default = white
+Red Colour
+default = red
+Green Colour
+default = green
+Text Colour
+default = white
+Text Size
+default = 4rem
+Blink Colour
+Blink Text Colour
+default = black
+One block width
+default = green
+default = 24.75%
+One block height
+default = 100%
+Total width (blocks wrapper width) 
+Total height (blocks wrapper height)
+One block border width
+default = 0.25%
+One block border height
+default = 100%   
+Enter HTML in the box below.
+Enter CSS in the box below. 
+Enter additional JS code in the box below.        
+                     
+                
