@@ -1,6 +1,12 @@
-{
+{   "autoload": {
+    "psr-4": {
+        "MyApp\\": "src"
+    }
+},
     "require": {
         "cboden/ratchet": "^0.4.1",
-        "ratchet/pawl": "^0.3.2"
+        "ratchet/pawl": "^0.3.2",
+        "xibosignage/oauth2-xibo-cms": "^1.1",
+        "monolog/monolog": "^2.2"
     }
 }
